@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Andromeda]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Banking Test(failed)">
+    <classes>
+      <class name="com.qa.testCases.TestBanking">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDownMethod"/>
+          <include name="openBankSite"/>
+          <include name="setUpSuite"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.qa.testCases.TestBanking -->
+    </classes>
+  </test> <!-- Banking Test(failed) -->
+</suite> <!-- Failed suite [Andromeda] -->
